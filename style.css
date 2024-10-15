@@ -1,18 +1,18 @@
-
+/*Universal */
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-
+/*Link decoration */
 a{
     text-decoration: none;
 }
-
+/* Unordered list*/
 ul{
     list-style: none;
 }
-
+/*List  */
 .active{
     color: #fc036b;
     text-decoration: none;
@@ -43,7 +43,7 @@ body , html {
 .nav-links li{
     margin: 0 30px;
 }
-
+/* HEADER*/
 header{
     width: 100vw;
     height: 100vh;
@@ -299,4 +299,7 @@ img:hover{
     li:hover{
         color: #fc036b;
         cursor: pointer;
+    }
+    .nav-links{
+        list-style: none;
     }
